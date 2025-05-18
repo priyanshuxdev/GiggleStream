@@ -1,0 +1,17 @@
+@import "tailwindcss";
+/* @import "video.js/dist/video-js.css"; */
+body {
+  font-family: "Urbanist Variable", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer utilities {
+  .about_style {
+    @apply bg-white p-8 rounded-2xl border-4 border-[#4A2C2A] shadow-[6px_6px_0px_0px_rgba(74,44,42,0.8)] scale-100 hover:scale-105 transition-all duration-300 cursor-pointer;
+  }
+}
