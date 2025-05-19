@@ -24,7 +24,7 @@ function VideoPlayerComp() {
           playbackRates: [0.5, 1, 1.5, 2],
           sources: [
             {
-              src: "https://vjs.zencdn.net/v/oceans.mp4",
+              src: "/videos/oceans.mp4",
               type: "video/mp4",
             },
           ],

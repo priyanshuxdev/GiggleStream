@@ -10,7 +10,7 @@ function Header() {
   }, []);
 
   return (
-    <nav className="header fixed top-4 left-1/2 -translate-x-1/2 w-[60%] max-w-6xl bg-white border-3 border-[#4A2C2A] rounded-full shadow-[6px_6px_0px_0px_rgba(74,44,42,0.8)] z-50">
+    <nav className="header fixed top-4 left-1/2 -translate-x-1/2 w-[50%] max-w-6xl bg-white border-3 border-[#4A2C2A] rounded-full shadow-[6px_6px_0px_0px_rgba(74,44,42,0.8)] z-50">
       <div className="px-8 py-2">
         <div className="flex items-center justify-between">
           {/* Logo */}
