@@ -123,26 +123,6 @@ export function runHomeAnimations() {
       "-=0.5"
     );
 
-  // Add hover animation to title characters
-  document.querySelectorAll(".title-char").forEach((char) => {
-    char.addEventListener("mouseenter", () => {
-      gsap.to(char, {
-        y: -10,
-        rotation: Math.random() * 20 - 10,
-        duration: 0.3,
-        ease: "back.out(1.7)",
-      });
-    });
-    char.addEventListener("mouseleave", () => {
-      gsap.to(char, {
-        y: 0,
-        rotation: 0,
-        duration: 0.3,
-        ease: "back.out(1.7)",
-      });
-    });
-  });
-
   // Features animation
   gsap.utils.toArray(".feature-card").forEach((card, index) => {
     gsap.fromTo(

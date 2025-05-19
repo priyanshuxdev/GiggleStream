@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="max-w-4xl mx-auto text-center">
-      <p className="text-[#4A2C2A] mb-4">Made with ❤️ for kids everywhere</p>
-      <div className="flex justify-center gap-4">
+      <p className="text-[#4A2C2A] mb-3">
+        Made with ❤️ by{" "}
         <Link
-          to="/player"
-          className="text-[#4A2C2A] hover:text-[#B85C38] transition-colors"
+          to={"https://x.com/prynsustwt"}
+          className="underline font-semibold"
+          target="_blank"
         >
-          Player
+          @prynsustwt
         </Link>
-        <Link
-          to="/about"
-          className="text-[#4A2C2A] hover:text-[#B85C38] transition-colors"
-        >
-          About
-        </Link>
+      </p>
+      <div>
+        <span className="text-[#4A2C2A]">
+          Copyright © 2025 GiggleStream. All rights reserved.
+        </span>
       </div>
     </div>
   );

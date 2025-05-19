@@ -14,4 +14,13 @@ body {
   .about_style {
     @apply bg-white p-8 rounded-2xl border-4 border-[#4A2C2A] shadow-[6px_6px_0px_0px_rgba(74,44,42,0.8)] scale-100 hover:scale-105 transition-all duration-300 cursor-pointer;
   }
+  .about_main_title {
+    @apply text-2xl font-bold text-[#4A2C2A] mb-4;
+  }
+  .about_main_para {
+    @apply text-[#4A2C2A] text-lg leading-relaxed;
+  }
+  .hero_explore_btn {
+    @apply mt-8 px-8 py-3 text-xl font-bold text-white bg-[#B85C38] border-4 border-[#4A2C2A] rounded-xl shadow-[6px_6px_0px_0px_rgba(74,44,42,0.8)] transition-all duration-300 hover:shadow-[4px_4px_0px_0px_rgba(74,44,42,0.8)] hover:translate-x-0.5 hover:translate-y-0.5 hover:bg-[#4A2C2A];
+  }
 }
